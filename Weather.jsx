@@ -75,7 +75,7 @@ const Weather = () => {
             {weatherData?<>
              <img src={clear_icon} alt="" className='weather-icon'/>
             <p className = 'temperature'>
-                {weatherData.temperature} degrees celeius
+                {weatherData.temperature} degrees celsius
             </p>
             <p className = 'location'>
                 {weatherData.location}
